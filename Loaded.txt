@@ -65,7 +65,7 @@ if _G.FastAttack then
     local Settings = {
         AutoClick = true,
         AutoKillAura = true,
-        ClickDelay = 0,
+        ClickDelay = 100,
     }
 
     local Module = {}
@@ -76,8 +76,9 @@ if _G.FastAttack then
         end
 
         local FastAttack = {
-            Distance = 100000000000000000000,
+            Distance = 1000,
             attackMobs = true,
+            attack Players = true
             Equipped = nil
         }
 
@@ -175,8 +176,8 @@ hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Respawn), function() end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 Window = Fluent:CreateWindow({
-    Title = "CuongHub Premium",
-    SubTitle="Blox Fruits", 
+    Title = "CuongHub Beta",
+    SubTitle="Free Script", 
     TabWidth=155, 
     Theme="Darker",
     Acrylic=false,
@@ -859,7 +860,8 @@ NameQuest="TikiQuest3"
 QuestLv=2
 NameMon="Skull Slayer"
 CFrameQ=CFrame.new(-16665.19140625, 104.59640502929688, 1579.6943359375)
-CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875)
+CFrameMon=CFrame.new(-16811.5703125, 84.625244140625, 1542.235107421875) repeat
+(repeat)
 end
 end
 end
